@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="icon" type="image/png" href="horizontal-plane.png" id="horizontal-plane-icon">
+    <link rel="icon" type="image/png" href="vertical-plane.png" id="vertical-plane-icon">
+
+</head>
+<body>
+    <!-- Logo -->
+    <div id="logo">
+        <img src="your-logo-image.png" alt="Flight Tracker Logo">
+    </div>
+    
+    <!-- Search Bar -->
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    
+    <!-- Refetch Button -->
+    <div id="refetch-button">
+        <button onclick="fetchFlightData()">Refetch</button>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map" style="height: 100vh;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

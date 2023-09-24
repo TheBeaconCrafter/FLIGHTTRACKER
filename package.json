@@ -1,0 +1,16 @@
+{
+  "name": "flihgttracker",
+  "version": "1.0.0",
+  "description": "A flight tracker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vincent Wackler",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
